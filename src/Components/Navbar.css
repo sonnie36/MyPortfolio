@@ -1,0 +1,30 @@
+.nav{
+    height:4rem;
+    background-color: rgb(30,30,30);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-right:80px; 
+    padding-left:80px; 
+    
+}
+.logo{
+    font-size:2rem;
+    font-weight:600;
+}
+.nameLogo{
+    color:blueviolet;
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+    /* text-decoration: none; */
+}
+ul li{
+    list-style:none;
+    cursor:pointer;
+}
+.navLink:hover{
+    border: 3px solid blueviolet;
+}
