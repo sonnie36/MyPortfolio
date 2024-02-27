@@ -7,7 +7,7 @@ export const Home = () => {
     <div>
         <Navbar/>
         <div className="intro">
-            <div className="img">
+            <div className="imgIntro">
                 <img src={pic} alt="" className="myImage" />
             </div>
             <div className='introDetails'>

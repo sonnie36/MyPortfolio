@@ -1,9 +1,10 @@
 .intro{
-    height: 94vh;
+    height: calc(100vh - 4rem);
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1.5rem;
 
 }
 .introDetails{
@@ -17,17 +18,18 @@
     font-weight:700;
 }
 .introDesc{
-    font-weight:300;
-    font-size:1rem;
+    /* font-weight:300; */
+    font-size:0.7rem;
     color:rgb(50,50,50);
 }
-.img{
-    width:120px;
-    height:120px;
-    margin-bottom: 5px;
-}
-.myImage{
-    width:120px;
-    height:120px;
+.imgIntro{
+    width:150px;
+    height:150px;
+    overflow:hidden;
     border-radius: 50%;
+}
+ .myImage{ 
+   width:100%;
+   height:auto;
+
 }

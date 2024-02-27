@@ -1,0 +1,43 @@
+.Skill{
+    height:100vh;
+    max-width: 50rem;
+    margin: 0 auto;
+    /* margin-bottom: 25px; */
+}
+.abtSkills{
+    margin-bottom: 50px;
+}
+.percentSkill{
+    /* display:flex;
+    flex-direction:column; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items:center;
+    align-items:center;
+    gap:1.0rem;
+    
+}
+.skill{
+    border-left:3px solid blueviolet;
+    font-size: 0.7rem;
+}
+.cards{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 20rem;
+    padding: 20px;
+    margin: auto;
+    display:flex;
+    /* justify-content:space-between; */
+    gap: 10px;
+}
+
+  .img{
+    width:20px;
+    height:20px;
+  }
+  .num{
+    color: blueviolet;
+    font-weight:500;
+  }
