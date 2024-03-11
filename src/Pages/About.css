@@ -1,5 +1,5 @@
 .about{
-    height:100vh;
+    height:calc(100vh-4rem);
     width: 100%;
     max-width:65rem;
     margin: 0 auto;
@@ -10,9 +10,7 @@
     gap: 25px;
 }
 .aboutMe{
-    /* max-width: 30rem; */
     font-size: 0.7rem;
-    /* padding-top: 2.5rem; */
 }
 h2{
     padding-left: 5px;

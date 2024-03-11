@@ -1,11 +1,9 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
 import './Home.css'
 import pic from '../assets/me.jpg'
 export const Home = () => {
   return (
     <div>
-        <Navbar/>
         <div className="intro">
             <div className="imgIntro">
                 <img src={pic} alt="" className="myImage" />

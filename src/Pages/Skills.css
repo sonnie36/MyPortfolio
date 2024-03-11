@@ -1,15 +1,17 @@
 .Skill{
-    height:100vh;
+    height:calc(100vh-4rem);
     max-width: 50rem;
     margin: 0 auto;
-    /* margin-bottom: 25px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .abtSkills{
+  margin-top:3rem;
     margin-bottom: 50px;
 }
 .percentSkill{
-    /* display:flex;
-    flex-direction:column; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items:center;

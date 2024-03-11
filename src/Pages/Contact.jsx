@@ -4,6 +4,7 @@ import linkedIn from '../assets/linkedin.png'
 import github from '../assets/github.png'
 import twitter from '../assets/twitter.png'
 import whatsapp from '../assets/whatsapp.png'
+import Footer from '../Components/Footer'
 
 const Contact = () => {
   return (
@@ -22,6 +23,7 @@ const Contact = () => {
         <img src={whatsapp} alt="" className="link" />
     </div>
     </form>
+    <Footer/>
     </div>
   )
 }

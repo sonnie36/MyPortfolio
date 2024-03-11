@@ -8,6 +8,7 @@ import cssPic from '../assets/css.png'
 
 const Skills = () => {
   return (
+    <div>
         <div className="Skill">
             <h2 className='abtSkills'>Skills</h2>
               <div className="percentSkill">
@@ -54,6 +55,7 @@ const Skills = () => {
                 </div>
               </div>
               </div>
+            </div>
             </div>
   )
 }

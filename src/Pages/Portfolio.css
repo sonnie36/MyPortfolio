@@ -1,5 +1,5 @@
 .Portfolio{
-    height:100vh;
+    height:calc(100vh-4rem);
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -7,13 +7,13 @@
     max-width: 65rem;
     padding:1rem 2.5rem;
     margin: 0 auto;
-    background: rgb(100,100,100);
     /* padding-bottom: 30px; */
 }
 .displayWorks{
     display:flex;
-    /* align-items: center;
-    justify-content: center; */
-    /* place-items: center;
-    grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); */
+   
 }
+.subTitle{
+    margin-bottom: 1rem;
+}
+/*  */

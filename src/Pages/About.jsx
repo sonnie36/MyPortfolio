@@ -6,7 +6,7 @@ import profile from '../assets/me.jpg'
 const About = () => {
   return (
     <div>
-        {/* <Navbar/> */}
+
         <div className="about">
             <div>
               <img src={profile} alt="" className="profile" />

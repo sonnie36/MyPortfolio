@@ -1,7 +1,7 @@
 .nav{
     height:4rem;
     background-color: rgb(30,30,30);
-    color: white;
+    color:white;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -24,7 +24,8 @@ ul{
 ul li{
     list-style:none;
     cursor:pointer;
+    text-align: center;
 }
 .navLink:hover{
-    border: 3px solid blueviolet;
+    border-bottom: 3px solid blueviolet;
 }
