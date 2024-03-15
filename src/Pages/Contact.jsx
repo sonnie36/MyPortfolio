@@ -53,7 +53,7 @@ const Contact = () => {
     {loading?<button className="submitBtn" id="loadingBtn"><i className="fa fa-circle-o-notch fa-spin"></i> Sending</button>:<button type="submit" value="send" className="submitBtn">Submit</button>}
     <div className="links">
         <a href="https://www.linkedin.com/in/salome-mwati-813501263/"><i className="fa fa-linkedin link"></i></a>
-        <a href=""><i className="fa fa-github link"></i></a>
+        <a href="https://github.com/sonnie36"><i className="fa fa-github link"></i></a>
         <a href=""><i className="fa fa-twitter link"></i></a>
         <a href=""><i className="fa fa-whatsapp link"></i></a>
     </div>
