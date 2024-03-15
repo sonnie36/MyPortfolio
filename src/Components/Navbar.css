@@ -1,12 +1,18 @@
 .nav{
+    position:absolute;
+    top:0;
     height:4rem;
-    background-color: rgb(30,30,30);
-    color:white;
+    /* background-color: rgb(30,30,30); */
+    background-color: white;
+    color:blueviolet;
     display: flex;
     justify-content: space-between;
     align-items:center;
     padding-right:80px; 
     padding-left:80px; 
+    /* border-bottom:2px solid blueviolet; */
+    box-shadow: 0 4px 8px rgba(126, 14, 107, 0.1);
+    z-index: 1;
     
 }
 .logo{
@@ -26,6 +32,6 @@ ul li{
     cursor:pointer;
     text-align: center;
 }
-.navLink:hover{
-    border-bottom: 3px solid blueviolet;
+.navName:hover{
+    color:blueviolet;
 }

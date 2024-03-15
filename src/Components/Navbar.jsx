@@ -7,23 +7,17 @@ const Navbar = () => {
     
         <div className="nav">
             <p className='logo'>Salome <span className='nameLogo'>Mwati</span></p>
-        <ul>
-            <li className="navLink" >Home
-            {/* <Link to="/">Home</Link> */}
-            </li>
-            <li className="navLink" >About
-            {/* <Link to="/about">About</Link> */}
-            </li>
-            <li className="navLink" >Skills
-            {/* <Link to="/skills">Skills</Link> */}
-            </li>
-            <li className="navLink" >Portfolio
-            {/* <Link to="/portfolio">Portfolio</Link> */}
-            </li>
-            <li className="navLink" >Contact
-            {/* <Link to="/contact">Contact</Link> */}
-            </li>     
-        </ul>
+        <div>
+          <ul className="">
+            <li><Link to="/" className='navName'>Home</Link></li>
+            <li><Link to="/about" className='navName'>About</Link></li>
+            <li><Link to="/skills" className='navName'>Skills</Link></li>
+            <li><Link to="/portfolio" className='navName'>Portfolio</Link></li>
+            <li><Link to="/contact" className='navName'>Contact</Link></li>
+          </ul>
+            
+             
+        </div>
          
         </div>
   )

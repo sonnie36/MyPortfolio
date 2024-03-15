@@ -1,7 +1,9 @@
 import React from 'react'
 import './Home.css'
 import pic from '../assets/me.jpg'
-export const Home = () => {
+
+
+const Home = () => {
   return (
     <div>
         <div className="intro">
@@ -11,7 +13,7 @@ export const Home = () => {
             <div className='introDetails'>
             <p className="hello">Hello,</p>
             <p className='introName'>
-                I'm Salome Mwati.
+                I'm Salome <span className="nameM">Mwati</span>.
             </p>
             <p className="introDesc"> A skilled web developer who merges technical expertise with UI/UX knowledge to craft seamless and intuitive interfaces. </p>
             </div>
@@ -20,3 +22,6 @@ export const Home = () => {
     </div>
   )
 }
+
+
+export default Home;

@@ -1,10 +1,13 @@
 #contact{
     margin:0 auto;
-    height: 100vh;
+    /* height: calc(100vh - 4rem);  */
+    height:100vh;
     max-width:60rem;
-    /* display: flex; */
-    /* align-items: center;
-    justify-content: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(253,253,253);
 }
 .contactDesc{
     padding:1rem;
@@ -12,8 +15,8 @@
     font-weight: 300;
 }
 .contactForm{
-    background: rgb(170, 52, 170);
-    margin-top: 10rem;
+    background: rgb(248, 159, 248);
+    /* margin-top: 10rem; */
     display:flex;
     flex-direction:column;
     align-items: center;
@@ -21,6 +24,7 @@
     width: 90vw;
     max-width:60rem;
     padding:30px 0;
+    border-radius: 10px;
 }
 .name,.email,.msg{
     font-size:medium;
@@ -38,22 +42,48 @@
     padding:0.75rem;
     border-radius:0.5rem;
     margin:2rem;
-    background:white;
+    background:blueviolet;
+    color:white;
 }
 .links{
     display: flex;
-    flex-wrap:wrap;
     justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 60%;
 }
 .link{
-    object-fit: cover;
-    height:3rem;
-    width:3rem;
-    margin: 0 0.75rem;
+    color: white;
+    transition: transform 0.5s ease-in;
+}
+
+.link:hover{
+    transform: scale(1.5);
+    color:rgb(184, 119, 184);
+    cursor: pointer;
+}
+.links>a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 30px;
 }
 .submitBtn:hover{
 
-    background:rgb(230, 179, 230);
+    background:rgb(184, 119, 184);
     color:white;
     cursor: pointer;
+}
+placeholder{
+    color:blueviolet;
+}
+
+#loadingBtn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
 }
