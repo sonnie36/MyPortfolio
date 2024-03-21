@@ -8,7 +8,7 @@ const About = () => {
     <div>
 
         <div className="about">
-            <div>
+            <div className='image'>
               <img src={profile} alt="" className="profile" />
             </div>
             

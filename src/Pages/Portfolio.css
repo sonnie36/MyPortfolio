@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     max-width: 65rem;
+    padding:0 10px;
     margin: 0 auto;
     margin-top: 2rem;
 }
@@ -12,13 +13,29 @@
     display:flex;
    
 }
+h2{
+    margin-left: 5px;
+}
 .subTitle{
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
+    margin-left: 5px;
 }
 
 .slick-next:before, .slick-prev:before {
     color: rgb(138, 57, 158) !important; /* Change 'red' to your desired color */
 }
-.slick-next > div{
+/* .slick-next > div{
     margin: 0 10px;
-}
+} */
+.sld {
+    margin: 0 auto; /* Center the slider horizontally */
+    width: 90%; /* Set the width of the slider container */
+  }
+  
+  .slick-slide {
+    padding: 0 10px; /* Add padding to slides for spacing */
+  }
+  
+  .slick-list {
+    margin: 0 -10px; /* Compensate for slide padding to keep the first and last slides centered */
+  }
