@@ -2,21 +2,20 @@
     position:absolute;
     top:0;
     height:4rem;
-    /* background-color: rgb(30,30,30); */
+    width: 100%;
     background-color: white;
     color:blueviolet;
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding-right:80px; 
-    padding-left:80px; 
-    /* border-bottom:2px solid blueviolet; */
+    padding-right:50px; 
+    padding-left:50px; 
     box-shadow: 0 4px 8px rgba(126, 14, 107, 0.1);
     z-index: 1;
     
 }
 .logo{
-    font-size:2rem;
+    font-size:1.8rem;
     font-weight:600;
 }
 .nameLogo{
@@ -24,7 +23,9 @@
 }
 ul{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding:25px 10px;
+    /* margin:0 10px; */
     /* text-decoration: none; */
 }
 ul li{
@@ -34,4 +35,59 @@ ul li{
 }
 .navName:hover{
     color:blueviolet;
+}
+.imgMenu{
+    width:25px;
+    height:25px;
+    display:none;
+}
+.menuBar {
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    background-color: white; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(126, 14, 107, 0.1);
+    width:25rem;
+    height:fit-content;
+    min-width: 15rem;
+   display:none;
+}
+
+.navMenuLinks{
+    cursor:pointer;
+    text-align: center;
+    padding: 0.5rem 3rem; 
+    margin: 0.25rem;
+    transition: all 0.3s ease; 
+}
+.navMenuLinks:hover {
+    color: blueviolet; 
+
+}
+@media screen and (max-width:768px){
+    .deskTopMenu{
+        display: none;
+    }  
+    .imgMenu{
+        display:flex;
+    }
+    .menuBar{
+        display:flex;
+    
+    }
+}
+
+@media screen and (max-width:850px){
+    .logo{
+        font-size:1.6rem;
+        font-weight:600;
+    }
+    ul li{
+        font-size: 0.9rem;
+    }
 }
